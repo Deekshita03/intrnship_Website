@@ -1,1 +1,19 @@
+.Img1{
+    
+    background-image: url(https://raw.githubusercontent.com/Abhi010bh/Filehost/master/School.jpeg?raw=true);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  
+    /* dimensions are important, ensure it is tall enough to scroll */ 
+    min-height: 100vh;
+    min-width: 100vh;
+  
+    /* you are free to lay out the container items with flexbox or whatever means you wish */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
 
