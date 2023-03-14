@@ -17,5 +17,73 @@
     
     
 }
+.custom-shape-divider-bottom-1678779260 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
 
-    
+.custom-shape-divider-bottom-1678779260 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 124px;
+}
+
+.custom-shape-divider-bottom-1678779260 .shape-fill {
+    fill: #ffffff;
+}
+
+/* For mobile devices*/ 
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1678779260 svg {
+        width: calc(169% + 1.3px);
+        height: 100px;
+    }
+}
+
+.custom-shape-divider-bottom-1678788094 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1678788094 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1678788094 .shape-fill {
+    fill: #FFFFFF;
+}
+.custom-shape-divider-top-1678788140 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1678788140 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1678788140 .shape-fill {
+    fill: #FFFFFF;
+}
