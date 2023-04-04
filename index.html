@@ -22,6 +22,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Kannada&display=swap" rel="stylesheet">
 
 <script>
 	$(document).ready(function(){
@@ -30,17 +33,37 @@
 	}
   });
 </script>
+<style>
+
+@media only screen and (max-device-width: 1366px) {
+  .navBAr{
+    min-height: 1em;
+  }
+} 
+</style>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          A2d2: '#a2d2ff',
+          BDED:'#bdeofe'
+        }
+      }
+    }
+  }
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="background-color: ">
 
   
 
-<nav class=" backdrop-blur-lg navbar-brand align-items-center  hidden  lg:block mx-auto pt-2 pb-2" style="text-align: center;font-family: 'Noto Sans Kannada', sans-serif; "><a href="#" >
+<!--nav class=" backdrop-blur-lg navbar-brand align-items-center  hidden  lg:block mx-auto pt-2 pb-2" style="text-align: center;font-family: 'Noto Sans Kannada', sans-serif; "><a href="#" >
   <!--img src="" class="h-6 mr-3 sm:h-9 mx-auto" alt=" Logo"-->
-  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black" >ಸರ್ಕಾರಿ ಹಿರಿಯ ಪ್ರಾಥಮಿಕ ಶಾಲೆ
+  <!--span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black" >ಸರ್ಕಾರಿ ಹಿರಿಯ ಪ್ರಾಥಮಿಕ ಶಾಲೆ
   </span>
 </a>
 <div class="absolute right-0 d-inline-block px-2 flex flex-col text-gray-600"><div>Contact Us</div>
@@ -50,15 +73,15 @@
     <span>123456789</span>
   </div>
   </div>
-</nav>
-<nav class="  navbar navbar-nav-scroll  bg-slate-50/95 navbar-expand-lg navbar-text shadow navbar-light  top-0 position-sticky  " style="z-index: 1; ">
-<button class="navbar-toggler  d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+</nav-->
+<nav class="opacity-80 navBAr navbar navbar-nav-scroll  bg-slate-50/95 navbar-expand-lg navbar-text  navbar-light  top-0 position-sticky  " style="min-height: 5em;; z-index: 1; background-color: #eee2df; ">
+<button class="px-4 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon  d-lg-none"></span></button>
-<div class="navbar-brand align-items-center flex d-lg-none" style="text-align:center;"><a href="#" >
+<!--div class="navbar-brand align-items-center flex d-lg-none" style="text-align:center;"><a href="#" >
   
   <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-black" >ಸರ್ಕಾರಿ ಹಿರಿಯ ಪ್ರಾಥಮಿಕ ಶಾಲೆ</span>
 </a>
-</div> 
+</div--> 
 
 <div class="offcanvas offcanvas-end " data-bs-scroll="true" tabindex="-1" id="navbarSupportedContent" >
   <div class="offcanvas-header">
@@ -74,10 +97,11 @@
      
       <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">ಸರ್ಕಾರಿ ಹಿರಿಯ ಪ್ರಾಥಮಿಕ ಶಾಲೆ</span>
   </a></li>
-    <li class="nav-item "><a  class="  nav-link d-lg-inline-block hover:underline underline-offset-8 decoration-4 decoration-blue-400 focus:underline underline-offset-8 decoration-4 decoration-blue-400" style="color: #a8a29e;" href="index.html">HOME </a></li>
-    <li class="nav-item "> <a class="nav-link d-lg-inline-block hover:underline underline-offset-8 decoration-4 decoration-blue-400 focus:underline underline-offset-8 decoration-4 decoration-blue-400" style="color: #a8a29e;" href="#OVW">OVERVIEW</a></li>
-    <li class="nav-item "><a class="nav-link d-lg-inline-block hover:underline underline-offset-8 decoration-4 decoration-blue-400 focus:underline underline-offset-8 decoration-4 decoration-blue-400" style="color: #a8a29e;" href="#ABT">ABOUT</a></li>
-    <li class="nav-item "><a class="nav-link d-lg-inline-block hover:underline underline-offset-8 decoration-4 decoration-blue-400 focus:underline underline-offset-8 decoration-4 decoration-blue-400" style="color: #a8a29e;" href="Acad.html">ACADEMICS</a></li>
+    <li class="nav-item "><a  class="  nav-link d-lg-inline-block hover:underline underline-offset-8 decoration-4 decoration-BDED focus:underline underline-offset-8 decoration-4 decoration-BDED" style="color: #a8a29e;" href="index.html">HOME </a></li>
+    <li class="nav-item "> <a class="nav-link d-lg-inline-block hover:underline underline-offset-8 decoration-4 decoration-A2d2 focus:underline underline-offset-8 decoration-4 decoration-A2d2" style="color: #a8a29e;" href="#OVW">OVERVIEW</a></li>
+    <li class="nav-item "><a class="nav-link d-lg-inline-block hover:underline underline-offset-8 decoration-4 decoration-A2d2 focus:underline underline-offset-8 decoration-4 decoration-A2d2" style="color: #a8a29e;" href="#ABT">ABOUT</a></li>
+    <li class="nav-item "><a class="nav-link d-lg-inline-block hover:underline underline-offset-8 decoration-4 decoration-A2d2 focus:underline underline-offset-8 decoration-4 decoration-A2d2" style="color: #a8a29e;" href="Acad.html">STAFF</a></li>
+    <li class="nav-item "><a class="nav-link d-lg-inline-block hover:underline underline-offset-8 decoration-4 decoration-A2d2 focus:underline underline-offset-8 decoration-4 decoration-A2d2" style="color: #a8a29e;" href="Gallery.html">FACILITIES</a></li>
    
     </ul>
   <div class="offcanvas-footer align-content-center md:hidden"><div class="absolute right-0 d-inline-block px-2 flex flex-col"><div>Contact Us</div>
@@ -90,73 +114,184 @@
   </div>
 </nav>
 
-
-  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active position-relative" data-bs-interval="2000">
-        <img src="https://raw.githubusercontent.com/Abhi010bh/Filehost/master/Img1.jpeg?raw=true" class="d-block w-100" style="max-height:40em;" alt="Wild Landscape"/>
-        <figcaption class="absolute  border-1 bg-slate-400/50  md:p-4 p-4 text-white top-1/2   md:top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl md:text-5xl">
-          <p style="font-family: 'Noto Serif Kannada', serif;"> ಶ್ರದ್ಧಾವಾನ್ ಲಭತೇ ಜ್ಞಾನಂ</p>
-      </figcaption>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="https://raw.githubusercontent.com/Abhi010bh/Filehost/master/Img2.jpeg?raw=true" class=" d-block w-100" style="max-height:40em;" alt="Camera"/>
-        <div class="carousel-caption ">
-          <h5></h5>
-          <p></p>       </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="https://raw.githubusercontent.com/Abhi010bh/Filehost/master/Img3.jpeg?raw=true" class="d-block w-100" style="max-height:40em;" alt="Exotic Fruits"/>
-        <div class="carousel-caption ">
-          <h5></h5>
-          <p></p>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="https://raw.githubusercontent.com/Abhi010bh/Filehost/master/Img4.jpeg?raw=true" class="d-block w-100" style="max-height:40em;"alt="Exotic Fruits"/>
-        <div class="carousel-caption ">
-          <h5></h5>
-          <p></p>
-        </div>
+  
+<section class="position-relative">
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active position-relative" data-bs-interval="2000">
+      <img src="NaliKali.jpg" class="d-block w-100 " style="max-height:42em; " alt="Wild Landscape"/>
+      <figcaption class="absolute  border-1 bg-slate-400/50  md:p-4 p-4 text-white top-1/2   md:top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl md:text-5xl">
+        <p style="font-family: 'Noto Serif Kannada', serif;"> ಶ್ರದ್ಧಾವಾನ್ ಲಭತೇ ಜ್ಞಾನಂ</p>
+    </figcaption>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://raw.githubusercontent.com/Abhi010bh/Filehost/master/Img2.jpeg?raw=true" class=" d-block w-100" style="max-height: 42em;" alt="Camera"/>
+      <div class="carousel-caption ">
+        <h5></h5>
+        <p></p>       </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://raw.githubusercontent.com/Abhi010bh/Filehost/master/Img3.jpeg?raw=true" class="d-block w-100" style="max-height: 42em;" alt="Exotic Fruits"/>
+      <div class="carousel-caption ">
+        <h5></h5>
+        <p></p>
       </div>
     </div>
-    <button class="carousel-control-prev" data-bs-target="#carouselExampleInterval" type="button" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" data-bs-target="#carouselExampleInterval" type="button" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://raw.githubusercontent.com/Abhi010bh/Filehost/master/Img4.jpeg?raw=true" class="d-block w-100" style="max-height: 42em;"alt="Exotic Fruits"/>
+      <div class="carousel-caption ">
+        <h5></h5>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="Img.jpeg" class="d-block w-100" style="max-height: 42em;" alt="Exotic Fruits"/>
+      <div class="carousel-caption ">
+        <h5></h5>
+        <p></p>
+      </div>
+  </div>
+  <button class="carousel-control-prev" data-bs-target="#carouselExampleInterval" type="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" data-bs-target="#carouselExampleInterval" type="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</div>
+<!--div class="custom-shape-divider-bottom-1678777610">
+  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+      <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+      <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+  </svg>
+</div-->
+
+
+<div class="custom-shape-divider-bottom-1678779260">
+  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+      <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+      <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+  </svg>
+</div></section>
+
+<section></section>
+ <div> 
+<figure class="max-w-screen-md mx-auto text-center border-double border-4 p-2">
+  <svg aria-hidden="true" class="w-12 h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
+  <blockquote class="text-center">
+    <h1 class="text-4xl p-2 font-bold text-orange-500" style="font-family: 'Tiro Kannada', serif;">ಧ್ಯೇಯ ವಾಕ್ಯ</h1>
+      <p class="h3 p-4 d-inline-block bg-white text-center " style="font-family: 'Tiro Kannada', serif;">" ನಮ್ಮ ಶಾಲೆಯ ಎಲ್ಲಾ ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಗುಣಾತ್ಮಕ ಶಿಕ್ಷಣದಿಂದ ಪ್ರಜ್ಞಾವಂತರನ್ನಾಗಿಸುವುದು ಹಾಗೂ ಜವಾಬ್ದಾರಿಯುತ ನಾಗರಿಕರನ್ನಾಗಿಸುವದು."</p>
+  </blockquote>
+  <figcaption class="flex items-center justify-center mt-6 space-x-3">
+      <!--img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
+      <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+          <cite class="pr-3 font-medium text-gray-900 dark:text-white">Micheal Gough</cite>
+          <cite class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">CEO at Google</cite>
+      </div-->
+  </figcaption>
+</figure>
+
+ </div>
+</section>
+
+
+<section class=" bg-white p-5  justify-between flex flex-col lg:flex-row" style="background-color: ;">
+
+
+  <div class="flex justify-center justify-between ">
+    <div
+      class="block max-w-sm rounded-lg bg-white p-7 w-64 shadow-lg mx-auto align-items-center dark:bg-neutral-700">
+      
+        <img src="https://media.istockphoto.com/id/1359481667/vector/founded-building.jpg?s=612x612&w=0&k=20&c=jTTZwnBxHmw9xzaUKnBsW0R_VZrs61nFijQzLdFUgCM="
+      style="max-height:100px;" class="mx-auto">
+      
+      <h5
+      class="text-center mb-2 text-xl font-medium leading-tight ">
+     ESTABLISHED IN
+    </h5>
+      
+      <p class="mb-4  text-base text-center ">
+       1876
+      </p>
+      
+    </div>
   </div>
 
-  <section class="bg-slate-200 flex flex-col p-4" id="OVW" >
-    <div class="container-fluid shadow-md p-3 bg-white ">
-    <p class="h2 text-center text-weight " style="font-family: 'Noto Sans Kannada', sans-serif;">ಪಕ್ಷಿನೋಟ </p>
-    <div class="flex flex-col md:flex-row">
-    <div class="mx-auto text-center">
-      <img src="https://media.istockphoto.com/id/1359481667/vector/founded-building.jpg?s=612x612&w=0&k=20&c=jTTZwnBxHmw9xzaUKnBsW0R_VZrs61nFijQzLdFUgCM="
-      style="max-height:100px;"> Established in 1876
+  <div class="flex justify-center justify-between ">
+    <div
+      class="block max-w-sm rounded-lg bg-white p-7 w-64 shadow-lg mx-auto align-items-center dark:bg-neutral-700">
+      
+        <img src="https://png.pngtree.com/png-clipart/20210622/ourlarge/pngtree-black-and-white-simple-doodle-science-education-chemistry-class-png-image_3491397.jpg"
+      style="max-height:100px;" class="mx-auto">
+      
+      <h5
+      class="text-center mb-2 text-xl font-medium leading-tight ">
+     CLASSES
+    </h5>
+      
+      <p class="mb-4  text-base text-center ">
+       From 1 to 8
+      </p>
+      
     </div>
-    <div class="mx-auto text-center">
-      <img src="https://png.pngtree.com/png-clipart/20210622/ourlarge/pngtree-black-and-white-simple-doodle-science-education-chemistry-class-png-image_3491397.jpg"
-      style="max-height:100px;"> Classes 1 to 8
-    </div>
-    <div class="mx-auto text-center">
-      <img src="https://media.istockphoto.com/id/1335879437/vector/coed-vector-solid-icon-style-illustration-eps-10-file.jpg?s=612x612&w=0&k=20&c=8jmYVR8u6eBmEbrjUHWf5E-kZU-O1hNl5GTcAzdBlqs="
-      style="max-height:100px;"> Co-Education
-    </div>
-    <div class="mx-auto text-center">
-      <img src="https://images.twinkl.co.uk/tr/image/upload/t_illustration/illustation/Japanese-Classroom-black-and-white-RGB.png"
-      style="max-height:100px;">18 Classrooms
-    </div>
-</div></div>  </section>
+  </div>
 
-<section class="Img1 " style=" background-image: url(https://raw.githubusercontent.com/Abhi010bh/intrnship_Website/main/School.jpg?raw=true); 
+  <div class="flex justify-center justify-between ">
+    <div
+      class="block max-w-sm rounded-lg bg-white p-7 w-64 shadow-lg mx-auto align-items-center dark:bg-neutral-700">
+      
+        <img src="https://media.istockphoto.com/id/1335879437/vector/coed-vector-solid-icon-style-illustration-eps-10-file.jpg?s=612x612&w=0&k=20&c=8jmYVR8u6eBmEbrjUHWf5E-kZU-O1hNl5GTcAzdBlqs="
+      style="max-height:100px;" class="mx-auto">
+      
+      <h5
+      class="text-center mb-2 text-xl font-medium leading-tight ">
+     CO-EDUCATION
+    </h5>
+      
+      <p class="mb-4  text-base text-center ">
+      
+      </p>
+      
+    </div>
+  </div>
+
+  <div class="flex justify-center justify-between ">
+    <div
+      class="block max-w-sm rounded-lg bg-white p-7 w-64 shadow-lg mx-auto align-items-center dark:bg-neutral-700">
+      
+        <img src="https://images.twinkl.co.uk/tr/image/upload/t_illustration/illustation/Japanese-Classroom-black-and-white-RGB.png"
+      style="max-height:100px;" class="mx-auto">
+      
+      <h5
+      class="text-center mb-2 text-xl font-medium leading-tight ">
+     CO-EDUCATION
+    </h5>
+      
+      <p class="mb-4  text-base text-center ">
+      
+      </p>
+      
+    </div>
+  </div>
+</section>
+
+<section class="Img1  position-relative" style=" background-image: url(https://raw.githubusercontent.com/Abhi010bh/intrnship_Website/main/School.jpg?raw=true); 
 " id="ABT">
-  <div class="mask text-white p-3 " style="background-color: hsla(0, 0%, 0%, 0.6)">
-    <div class="border p-4">
-    <p class="h2 text-center text-white p-4" style="font-family: 'Noto Sans Kannada', sans-serif;"> ನಮ್ಮ ಬಗ್ಗೆ </p>
+<div class="custom-shape-divider-top-1678788140">
+  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z" class="shape-fill"></path>
+  </svg>
+</div>
+<div class="mask text-white p-3 " style="background-color: hsla(0, 0%, 0%, 0.6)">
+ <div class="pt-6 md:pt-24 flex flex-col lg:flex-row"> 
+<div class="flex-item container">
+  <p class="h2 text-center text-white p-4" style="font-family: 'Noto Sans Kannada', sans-serif;"> ನಮ್ಮ ಬಗ್ಗೆ </p>
   <p  style="font-family: 'Noto Serif Kannada', serif;">ಕನ್ನಡ ಹೈಯರ್ ಪ್ರೈಮರಿ ಶಾಲೆ ಕಣಬರ್ಗಿಯನ್ನು 1876 ರಲ್ಲಿ ಸ್ಥಾಪಿಸಲಾಯಿತು ಮತ್ತು ಇದನ್ನು ಶಿಕ್ಷಣ ಇಲಾಖೆಯು ನಿರ್ವಹಿಸುತ್ತದೆ. ಇದು ನಗರ
   ಪ್ರದೇಶದಲ್ಲಿ ನೆಲೆಗೊಂಡಿದೆ. ಇದು ಕರ್ನಾಟಕದ ಬೆಳಗಾವಿ ಜಿಲ್ಲೆಯ ಬೆಳಗಾವಿ ಸಿಟಿ ಬ್ಲಾಕ್‌ನಲ್ಲಿದೆ. ಶಾಲೆಯು 1 ರಿಂದ 8 ನೇ ತರಗತಿಗಳನ್ನು
   ಒಳಗೊಂಡಿದೆ. ಶಾಲೆಯು ಸಹ-ಶಿಕ್ಷಣವಾಗಿದೆ. ಈ ಶಾಲೆಯಲ್ಲಿ ಕನ್ನಡವು ಸೂಚನೆಗಳ ಮಾಧ್ಯಮವಾಗಿದೆ. ಎಲ್ಲಾ ಹವಾಮಾನದ ರಸ್ತೆಯಿಂದ ಈ ಶಾಲೆಯನ್ನು
@@ -167,39 +302,141 @@
     ಮೈದಾನವಿದೆ. ಶಾಲೆಯು ಗ್ರಂಥಾಲಯವನ್ನು ಹೊಂದಿದೆ ಮತ್ತು ಅದರ ಗ್ರಂಥಾಲಯದಲ್ಲಿ 2800 ಕ್ಕೂ ಹೆಚ್ಚು ಪುಸ್ತಕಗಳನ್ನು ಹೊಂದಿದೆ. ಶಾಲೆಯು 20
     ಕಂಪ್ಯೂಟರ್‌ಗಳು, 2 ಸ್ಮಾರ್ಟ್ ಡಿಜಿಟಲ್ ಬೋರ್ಡ್, ಬೋಧನೆ ಮತ್ತು ಕಲಿಕೆಯ ಉದ್ದೇಶಗಳಿಗಾಗಿ 8 ಪ್ರೊಜೆಕ್ಟರ್‌ಗಳನ್ನು ಹೊಂದಿದೆ ಮತ್ತು ಎಲ್ಲವೂ
     ಕ್ರಿಯಾತ್ಮಕವಾಗಿವೆ.</p>
-</div>
-</div>
-
-
+  </div>
+<div class=" border-l-4  px-3 md:p-5 " >  
+<img src="Img.jpeg" class="outline-4 object-contain md:max-w-2xl m-2	" >
+</div></div>
 
 </section>
+
+
+
+
   
 
+<!-- Footer -->
+<footer class="text-center text-lg-start  text-grey-500" style="background-color: #cdb4db;">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
 
-<footer class="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
-  <div class="sm:flex sm:items-center sm:justify-between">
-      
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <p class=" text-sm font-bold" style="font-family: 'Noto Serif Kannada', serif;" >
+              ಸರ್ಕಾರಿ ಹಿರಿಯ ಪ್ರಾಥಮಿಕ ಕನ್ನಡ ಶಾಲೆ,
+              </p>
+              <p class=" text-sm font-bold" style="font-family: 'Noto Serif Kannada', serif;">ಕಣಬರಗಿ, ನಗರ ವಲಯ, ಬೆಳಗಾವಿ</p>
+          </h6>
+          <p>
+            Pin:12345
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            HOME PAGE
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">ABOUT US</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">OVERVIEW</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">HEADER</a>
+          </p>
           
-        
-      <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
-          <li>
-              <a href="http://abhi010.online/intrnship_Website/index.html#ABT" class="mr-4 hover:underline md:mr-6 ">About</a>
-          </li>
-          <li>
-              <a href="http://abhi010.online/intrnship_Website/index.html#OVW" class="mr-4 hover:underline md:mr-6">Overwiew</a>
-          </li>
-          <li>
-              <a href="Acad.html" class="mr-4 hover:underline md:mr-6 ">Academics</a>
-          </li>
-          <!--li>
-              <a href="#" class="hover:underline">Contact</a>
-          </li-->
-      </ul>
-  </div>
-  <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-  <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© Copyright 2023. All Rights Reserved.
-  </span>
-</footer>
+        </div>
+        <!-- Grid column -->
 
-</body>
-</html>
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            NAVIGATE
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">HOME</a>
+          </p>
+          <p>
+            <a href="Acad.html" class="text-reset">STAFF</a>
+          </p>
+          <p>
+            <a href="Gallery.html" class="text-reset">FACILITIES</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">PHOTO GALLERY</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 align-items-end">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> Kanabargi, Belagavi</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            govtkhps1876@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +91 87912 41616</p>
+          <p><i class="fas fa-phone me-3"></i> +91 97393 54001</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2023 Copyright: Abhishek Haibatti &  Deekshita Bilagundi
+   
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+
